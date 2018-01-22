@@ -1,0 +1,7 @@
+product.result.sortby = {\"locator\":\"xpath=//li[text()='%s']\",\"desc\":\"sortby on resultpage\"}
+product.result.filter = {\"locator\":\"css=div[title='%s']\",\"desc\":\"filter on resultpage\"}
+product.result.division = {\"locator\":[\"css=a[class='_1UoZlX']\",\"css=div[class='_3ycxrs']\"],\"desc\":\"productdivision on resultpage\"}
+product.result.productname = {\"locator\":[\"css=div[class='_3wU53n']\",\"css=a[class='_325-ji _3ROAwx']\"],\"desc\":\"productname on resultpage\"}
+product.result.productprice = {\"locator\":[\"css=div[class='_1vC4OE _2rQ-NK']\",\"css=div[class='I8hxu4']\"],\"desc\":\"productprice on resultpage\"}
+product.result.numberofproducts = {\"locator\":\"css=div[class='C5rIv_']\",\"desc\":\"numberofproduct on resultpage\"}
+product.result.flipkartassured = {\"locator\":\"xpath=//div[@class='_3n6o0t']/img\",\"desc\":\"flipkartassured on resultpage\"}

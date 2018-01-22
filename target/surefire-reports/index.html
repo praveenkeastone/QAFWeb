@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-QAS_Demo">
+              <span class="suite-name border-passed">QAS Demo</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-QAS_Demo">
+                    <span>C:\Users\praveenkumar.dm\QASWorkspace1\Praveen_FlipKart_WebAutomation\config\testrun_config.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-QAS_Demo">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-QAS_Demo">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-QAS_Demo">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-QAS_Demo">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-QAS_Demo">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-QAS_Demo">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-QAS_Demo" class="hide-methods passed suite-QAS_Demo"> (hide)</a> <!-- hide-methods passed suite-QAS_Demo -->
+                      <a href="#" panel-name="suite-QAS_Demo" class="show-methods passed suite-QAS_Demo"> (show)</a> <!-- show-methods passed suite-QAS_Demo -->
+                    </span>
+                    <div class="method-list-content passed suite-QAS_Demo">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAS_Demo" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="FlipKartWebOrderVerificationDataDriven({mainCategory=Appliances, subCategory=Semi Automatic Top Load, sortby=Price -- Low to High, filterBy...)">FlipKartWebOrderVerificationDataDriven({mainCategory=Appliances, subCategory=Semi Automatic Top Load, sortby=Price -- Low to High, filterBy...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAS_Demo" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="FlipKartWebOrderVerificationDataDriven({mainCategory=Appliances, subCategory=Single Door, sortby=Newest First, filterBy=LG, productNumber=1...)">FlipKartWebOrderVerificationDataDriven({mainCategory=Appliances, subCategory=Single Door, sortby=Newest First, filterBy=LG, productNumber=1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAS_Demo" title="com.qmetry.qaf.automation.step.client.DataDrivenScenario" hash-for-method="FlipKartWebOrderVerificationDataDriven({mainCategory=Appliances, subCategory=24 and below, sortby=Price -- High to Low, filterBy=Sony, prod...)">FlipKartWebOrderVerificationDataDriven({mainCategory=Appliances, subCategory=24 and below, sortby=Price -- High to Low, filterBy=Sony, prod...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-QAS_Demo" title="com.qmetry.qaf.automation.step.client.Scenario" hash-for-method="FlipkartWebOrderVerification">FlipkartWebOrderVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-QAS_Demo -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-QAS_Demo" class="panel QAS_Demo">
+          <div class="suite-QAS_Demo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qmetry.qaf.automation.step.client.Scenario</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FlipkartWebOrderVerification">
+                  </a> <!-- FlipkartWebOrderVerification -->
+                  <span class="method-name">FlipkartWebOrderVerification</span>
+                  <em>
+(end to end)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QAS_Demo-class-passed -->
+          <div class="suite-QAS_Demo-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qmetry.qaf.automation.step.client.DataDrivenScenario</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FlipKartWebOrderVerificationDataDriven({mainCategory=Appliances, subCategory=Semi Automatic Top Load, sortby=Price -- Low to High, filterBy...)">
+                  </a> <!-- FlipKartWebOrderVerificationDataDriven({mainCategory=Appliances, subCategory=Semi Automatic Top Load, sortby=Price - Low to High, filterBy...) -->
+                  <span class="method-name">FlipKartWebOrderVerificationDataDriven</span>
+                  <span class="parameters">({mainCategory=Appliances, subCategory=Semi Automatic Top Load, sortby=Price -- Low to High, filterBy=Godrej, productNumber=2, assured=flipkart assured})</span>
+                  <em>
+(end to end data driven)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FlipKartWebOrderVerificationDataDriven({mainCategory=Appliances, subCategory=Single Door, sortby=Newest First, filterBy=LG, productNumber=1...)">
+                  </a> <!-- FlipKartWebOrderVerificationDataDriven({mainCategory=Appliances, subCategory=Single Door, sortby=Newest First, filterBy=LG, productNumber=1...) -->
+                  <span class="method-name">FlipKartWebOrderVerificationDataDriven</span>
+                  <span class="parameters">({mainCategory=Appliances, subCategory=Single Door, sortby=Newest First, filterBy=LG, productNumber=1, assured=flipkart assured})</span>
+                  <em>
+(end to end data driven)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FlipKartWebOrderVerificationDataDriven({mainCategory=Appliances, subCategory=24 and below, sortby=Price -- High to Low, filterBy=Sony, prod...)">
+                  </a> <!-- FlipKartWebOrderVerificationDataDriven({mainCategory=Appliances, subCategory=24 and below, sortby=Price - High to Low, filterBy=Sony, prod...) -->
+                  <span class="method-name">FlipKartWebOrderVerificationDataDriven</span>
+                  <span class="parameters">({mainCategory=Appliances, subCategory=24 and below, sortby=Price -- High to Low, filterBy=Sony, productNumber=1, assured=flipkart assured})</span>
+                  <em>
+(end to end data driven)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-QAS_Demo-class-passed -->
+        </div> <!-- panel QAS_Demo -->
+        <div panel-name="test-xml-QAS_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\praveenkumar.dm\QASWorkspace1\Praveen_FlipKart_WebAutomation\config\testrun_config.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;QAS Demo&quot;&gt;
+  &lt;test name=&quot;BDD Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qmetry.qaf.automation.step.client.text.BDDTestFactory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BDD Test --&gt;
+&lt;/suite&gt; &lt;!-- QAS Demo --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-QAS_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for QAS Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">BDD Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-QAS_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for QAS Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">P1</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">FlipKartWebOrderVerificationDataDriven</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FlipkartWebOrderVerification</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">P2</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">FlipKartWebOrderVerificationDataDriven</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FlipkartWebOrderVerification</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">SMOKE</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">FlipKartWebOrderVerificationDataDriven</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FlipkartWebOrderVerification</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-QAS_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for QAS Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_QAS_Demo');
+function tableData_QAS_Demo() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'FlipkartWebOrderVerification')
+data.setCell(0, 2, 'com.qmetry.qaf.automation.step.client.Scenario')
+data.setCell(0, 3, 26977);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'FlipKartWebOrderVerificationDataDriven')
+data.setCell(1, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(1, 3, 16993);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'FlipKartWebOrderVerificationDataDriven')
+data.setCell(2, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(2, 3, 16946);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'FlipKartWebOrderVerificationDataDriven')
+data.setCell(3, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
+data.setCell(3, 3, 16764);
+window.suiteTableData['QAS_Demo']= { tableData: data, tableDiv: 'times-div-QAS_Demo'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-QAS_Demo">
+              </div> <!-- times-div-QAS_Demo -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-QAS_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for QAS Demo</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FlipkartWebOrderVerification</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on flipkart homepage</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
+     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="../img/FlipkartWebOrderVerification_1amjpk2090yn757360.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects product 'Smart & Ultra HD' from 'Appliances' category</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;24&gt; was greater than &lt;0&gt; <a href="../img/FlipkartWebOrderVerification_uco8g2imvwyk57361.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user select sortby 'Price -- High to Low'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user select filterby 'Vu' brand</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see only product results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: not &lt;107&gt;
+     Actual: was &lt;10&gt; <a href="../img/FlipkartWebOrderVerification_1o55zooqwcc1p57362.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects '0' product from product list</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="../img/FlipkartWebOrderVerification_1wgrsiywffxwy57363.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product details matching correctly</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Vu 190cm (75 inch) Ultra HD (4K) LED Smart TV"
+     Actual: was "Vu 190cm (75 inch) Ultra HD (4K) LED Smart TV  (H75K700)" <a href="../img/FlipkartWebOrderVerification_hf2eox0lrgnl57364.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹2,09,999"
+     Actual: was "₹2,09,999" <a href="../img/FlipkartWebOrderVerification_slzy0g4j2gb757365.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects view details</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="../img/FlipkartWebOrderVerification_1s4tkl7ra8ggw57366.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see 'flipkart assured'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="../img/FlipkartWebOrderVerification_1qr6d28yrvjh057367.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects add to cart</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then product has been added to the cart</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;1&gt; was greater than &lt;0&gt; <a href="../img/FlipkartWebOrderVerification_1ttfoo48cpb1z57368.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Vu 190cm (75 inch) Ultra HD (4K) LED Smart TV"
+     Actual: was "Vu 190cm (75 inch) Ultra HD (4K) LED Smart TV" <a href="../img/FlipkartWebOrderVerification_19ipeq3tam4a057369.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹2,09,999"
+     Actual: was "₹2,09,999" <a href="../img/FlipkartWebOrderVerification_1e28hugy6emq157370.png" target="_blank">[View Screenshot]</a> </div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FlipKartWebOrderVerificationDataDriven({mainCategory=Appliances, subCategory=Semi Automatic Top Load, sortby=Price -- Low to High, filterBy...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on flipkart homepage</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
+     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="../img/FlipKartWebOrderVerificationDataDriven_1y1wyyptcalzk57393.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects product Semi Automatic Top Load from Appliances category</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;24&gt; was greater than &lt;0&gt; <a href="../img/FlipKartWebOrderVerificationDataDriven_okr3aat8l1sf57394.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user select sortby Price -- Low to High</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user select filterby Godrej brand</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see only product results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: not &lt;108&gt;
+     Actual: was &lt;18&gt; <a href="../img/FlipKartWebOrderVerificationDataDriven_1n54cetrq2ypi57395.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects 2 product from product list</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="../img/FlipKartWebOrderVerificationDataDriven_1f9ldrkzplff757396.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product details matching correctly</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Godrej Semi Automatic Top Load"
+     Actual: was "Godrej Semi Automatic Top Load  (GWS 6204 PPD TWIN TUB)" <a href="../img/FlipKartWebOrderVerificationDataDriven_t1bppo07hgx157397.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹10,250"
+     Actual: was "₹10,250" <a href="../img/FlipKartWebOrderVerificationDataDriven_1lxhrkwf4a0g857398.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects view details</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="../img/FlipKartWebOrderVerificationDataDriven_2iqh79mvkjaw57399.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see flipkart assured</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="../img/FlipKartWebOrderVerificationDataDriven_aket3ljjd12v57400.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects add to cart</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then product has been added to the cart</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;4&gt; was greater than &lt;0&gt; <a href="../img/FlipKartWebOrderVerificationDataDriven_7tweiz1cw5z157401.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Godrej Semi Automatic Top Load"
+     Actual: was "Godrej Semi Automatic Top Load" <a href="../img/FlipKartWebOrderVerificationDataDriven_1kmr6kgc9qd7s57402.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹10,250"
+     Actual: was "₹10,250" <a href="../img/FlipKartWebOrderVerificationDataDriven_10bsjx2wdpxw57403.png" target="_blank">[View Screenshot]</a> </div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FlipKartWebOrderVerificationDataDriven({mainCategory=Appliances, subCategory=Single Door, sortby=Newest First, filterBy=LG, productNumber=1...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on flipkart homepage</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
+     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="../img/FlipKartWebOrderVerificationDataDriven_1xfl1lk0ks6nd57382.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects product Single Door from Appliances category</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;24&gt; was greater than &lt;0&gt; <a href="../img/FlipKartWebOrderVerificationDataDriven_1gty077gqq3zx57383.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user select sortby Newest First</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user select filterby LG brand</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see only product results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: not &lt;183&gt;
+     Actual: was &lt;32&gt; <a href="../img/FlipKartWebOrderVerificationDataDriven_1rmdrmbrr2ue57384.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects 1 product from product list</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="../img/FlipKartWebOrderVerificationDataDriven_1n2whirl5zytg57385.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product details matching correctly</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "LG 190 L Direct Cool Single Door Refrigerator"
+     Actual: was "LG 190 L Direct Cool Single Door Refrigerator  (Marine Lily, GL-D201AMLC)" <a href="../img/FlipKartWebOrderVerificationDataDriven_5kahmvleod0a57386.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹14,499"
+     Actual: was "₹14,499" <a href="../img/FlipKartWebOrderVerificationDataDriven_159cra3jvor1j57387.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects view details</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="../img/FlipKartWebOrderVerificationDataDriven_oulzpe0u40mm57388.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see flipkart assured</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="../img/FlipKartWebOrderVerificationDataDriven_1pb1cmz4s716m57389.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects add to cart</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then product has been added to the cart</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;3&gt; was greater than &lt;0&gt; <a href="../img/FlipKartWebOrderVerificationDataDriven_bsfal9roh1fb57390.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "LG 190 L Direct Cool Single Door Refrigerator"
+     Actual: was "LG 190 L Direct Cool Single Door Refrigerator" <a href="../img/FlipKartWebOrderVerificationDataDriven_u3rdx16ctli957391.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹14,499"
+     Actual: was "₹14,499" <a href="../img/FlipKartWebOrderVerificationDataDriven_1eqjan64m32lh57392.png" target="_blank">[View Screenshot]</a> </div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FlipKartWebOrderVerificationDataDriven({mainCategory=Appliances, subCategory=24 and below, sortby=Price -- High to Low, filterBy=Sony, prod...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on flipkart homepage</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
+     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="../img/FlipKartWebOrderVerificationDataDriven_c55lje5ono0v57371.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects product 24 and below from Appliances category</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;24&gt; was greater than &lt;0&gt; <a href="../img/FlipKartWebOrderVerificationDataDriven_q05ra6pn1avm57372.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user select sortby Price -- High to Low</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user select filterby Sony brand</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see only product results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: not &lt;31&gt;
+     Actual: was &lt;2&gt; <a href="../img/FlipKartWebOrderVerificationDataDriven_1uwtq74sb9rnv57373.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects 1 product from product list</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="../img/FlipKartWebOrderVerificationDataDriven_1jqzc7bay6yec57374.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product details matching correctly</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Sony 59.9cm (24 inch) WXGA LED TV"
+     Actual: was "Sony 59.9cm (24 inch) WXGA LED TV  (BRAVIA KLV-24P413D)" <a href="../img/FlipKartWebOrderVerificationDataDriven_1qtg88h8k4mt457375.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹13,999"
+     Actual: was "₹13,999" <a href="../img/FlipKartWebOrderVerificationDataDriven_1tpj9wvsx5mex57376.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects view details</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="../img/FlipKartWebOrderVerificationDataDriven_1eb9ef6ug2tgn57377.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see flipkart assured</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="../img/FlipKartWebOrderVerificationDataDriven_ylmgfxq0mbme57378.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects add to cart</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then product has been added to the cart</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;2&gt; was greater than &lt;0&gt; <a href="../img/FlipKartWebOrderVerificationDataDriven_h7epztg636xu57379.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Sony 59.9cm (24 inch) WXGA LED TV"
+     Actual: was "Sony 59.9cm (24 inch) WXGA LED TV" <a href="../img/FlipKartWebOrderVerificationDataDriven_17jtwf62hd4fn57380.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹13,999"
+     Actual: was "₹13,999" <a href="../img/FlipKartWebOrderVerificationDataDriven_1l7pfpqudsmjg57381.png" target="_blank">[View Screenshot]</a> </div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-QAS_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">5 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.qmetry.qaf.automation.step.client.DataDrivenScenario</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">FlipKartWebOrderVerificationDataDriven</span>
+                <br/>
+                <span class="ignored-method-name">afterSuit</span>
+                <br/>
+                <span class="ignored-method-name">setupSuit</span>
+                <br/>
+                <span class="ignored-method-name">setupTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-QAS_Demo" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qmetry.qaf.automation.step.client.Scenario</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupSuit(org.testng.TestRunner@6c80d78a)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest(org.testng.TestRunner@6c80d78a)</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@6c80d78a)</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.Scenario.scenario(), org.testng.TestRunner@6c80d78...)</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FlipkartWebOrderVerification</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@6c80d78a, [TestResult name=FlipkartWebOrderVerification status=SUCCESS method=...)</span>
+                <span class="method-start">27009 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@6c80d78a)</span>
+                <span class="method-start">27025 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qmetry.qaf.automation.step.client.DataDrivenScenario</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@6c80d78a)</span>
+                <span class="method-start">27025 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">27025 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FlipKartWebOrderVerificationDataDriven({mainCategory=Appliances, subCategory=24 and below, sortby=Price -- High to Low, filterBy=Sony, prod...)</span>
+                <span class="method-start">27025 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@6c80d78a, [TestResult name=FlipKartWebOrderVerificationDataDriven status=SUCCE...)</span>
+                <span class="method-start">44019 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">44019 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FlipKartWebOrderVerificationDataDriven({mainCategory=Appliances, subCategory=Single Door, sortby=Newest First, filterBy=LG, productNumber=1...)</span>
+                <span class="method-start">44019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@6c80d78a, [TestResult name=FlipKartWebOrderVerificationDataDriven status=SUCCE...)</span>
+                <span class="method-start">60784 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
+                <span class="method-start">60800 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">FlipKartWebOrderVerificationDataDriven({mainCategory=Appliances, subCategory=Semi Automatic Top Load, sortby=Price -- Low to High, filterBy...)</span>
+                <span class="method-start">60800 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@6c80d78a, [TestResult name=FlipKartWebOrderVerificationDataDriven status=SUCCE...)</span>
+                <span class="method-start">77746 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@6c80d78a)</span>
+                <span class="method-start">77746 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qmetry.qaf.automation.step.client.Scenario</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@6c80d78a)</span>
+                <span class="method-start">77746 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuit(org.testng.TestRunner@6c80d78a)</span>
+                <span class="method-start">77831 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

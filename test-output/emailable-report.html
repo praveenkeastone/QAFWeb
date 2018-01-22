@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Praveen_FlipKart_WebAutomation.scenarios.FlipKartOrderVerification.bdd</th></tr><tr><td><a href="#t0">BDD Test</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">1</td><td class="num">91,394</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Praveen_FlipKart_WebAutomation.scenarios.FlipKartOrderVerification.bdd</th></tr></tbody><tbody id="t0"><tr><th colspan="4">BDD Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qmetry.qaf.automation.step.client.DataDrivenScenario</td><td><a href="#m0">FlipKartWebOrderVerificationDataDriven</a></td><td rowspan="1">1514789302255</td><td rowspan="1">32349</td></tr><tr><th colspan="4">BDD Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.qmetry.qaf.automation.step.client.DataDrivenScenario</td><td><a href="#m1">FlipKartWebOrderVerificationDataDriven</a></td><td rowspan="2">1514789285379</td><td rowspan="2">16865</td></tr><tr class="passedeven"><td><a href="#m2">FlipKartWebOrderVerificationDataDriven</a></td></tr><tr class="passedodd"><td rowspan="1">com.qmetry.qaf.automation.step.client.Scenario</td><td><a href="#m3">FlipkartWebOrderVerification</a></td><td rowspan="1">1514789260283</td><td rowspan="1">25071</td></tr></tbody></table><h2>BDD Test</h2><h3 id="m0">com.qmetry.qaf.automation.step.client.DataDrivenScenario#FlipKartWebOrderVerificationDataDriven</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{mainCategory=Appliances, subCategory=Single Door, sortby=Newest First, filterBy=LG, productNumber=1, assured=flipkart assured}</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages"><div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given user is on flipkart homepage <a href="test-results/01_Jan_2018_12_17_PM/img/FlipKartWebOrderVerificationDataDriven_1m2ybwsspe6220450.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Timed out after 30 seconds waiting for presence of element located by: Using any of[css=button[class='_2AkmmA _29YdH8'], css=a[class='_2etDcX _2487fi']]
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL12426', ip: '10.11.31.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: driver.version: QAFExtendedWebDriver</div></div><div  class="teststep"><span class="teststep-label">T </span>When user selects product ${subCategory} from ${mainCategory} category</div><div  class="teststep"><span class="teststep-label">T </span>Then user should see product results</div><div  class="teststep"><span class="teststep-label">T </span>When user select sortby ${sortby}</div><div  class="teststep"><span class="teststep-label">T </span>And user select filterby ${filterBy} brand</div><div  class="teststep"><span class="teststep-label">T </span>Then user should see only product results</div><div  class="teststep"><span class="teststep-label">T </span>When user selects ${productNumber} product from product list</div><div  class="teststep"><span class="teststep-label">T </span>Then user should see product details matching correctly</div><div  class="teststep"><span class="teststep-label">T </span>When user selects view details</div><div  class="teststep"><span class="teststep-label">T </span>Then user should see ${assured}</div><div  class="teststep"><span class="teststep-label">T </span>When user selects add to cart</div><div  class="teststep"><span class="teststep-label">T </span>Then product has been added to the cart</div></div></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for presence of element located by: Using any of[css=button[class=&apos;_2AkmmA _29YdH8&apos;], css=a[class=&apos;_2etDcX _2487fi&apos;]]
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL12426&apos;, ip: &apos;10.11.31.180&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: driver.version: QAFExtendedWebDriver
+	at .Given user is on flipkart homepage(scenarios/FlipKartOrderVerification.bdd:25)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:214)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:284)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.getId(QAFExtendedWebElement.java:294)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.isDisplayed(QAFExtendedWebElement.java:314)
+	at com.praveen_flipkart_webautomation.flipkartPages.FlipkartHomePageTestPage.validateHomepageTitle(FlipkartHomePageTestPage.java:47)
+	at com.praveen_flipkart_webautomation.StepsBackLog.userIsOnFlipkartHomepage(StepsBackLog.java:29)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:95)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using Using any of[css=button[class=&apos;_2AkmmA _29YdH8&apos;], css=a[class=&apos;_2etDcX _2487fi&apos;]]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;ICPL12426&apos;, ip: &apos;10.11.31.180&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_151&apos;
+Driver info: driver.version: QAFExtendedWebDriver
+	at com.qmetry.qaf.automation.ui.webdriver.ByAny.findElement(ByAny.java:54)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:169)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.findElement(QAFExtendedWebDriver.java:1)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:899)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:41)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:181)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:178)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.load(QAFExtendedWebDriver.java:214)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:284)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.getId(QAFExtendedWebElement.java:294)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.isDisplayed(QAFExtendedWebElement.java:314)
+	at com.praveen_flipkart_webautomation.flipkartPages.FlipkartHomePageTestPage.validateHomepageTitle(FlipkartHomePageTestPage.java:47)
+	at com.praveen_flipkart_webautomation.StepsBackLog.userIsOnFlipkartHomepage(StepsBackLog.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:781)
+	at org.testng.TestRunner.run(TestRunner.java:635)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.qmetry.qaf.automation.step.client.DataDrivenScenario#FlipKartWebOrderVerificationDataDriven</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{mainCategory=Appliances, subCategory=24 and below, sortby=Price -- High to Low, filterBy=Sony, productNumber=1, assured=flipkart assured}</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on flipkart homepage</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
+     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="test-results/01_Jan_2018_12_17_PM/img/FlipKartWebOrderVerificationDataDriven_1i0gk03jetw9t20439.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects product 24 and below from Appliances category</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;24&gt; was greater than &lt;0&gt; <a href="test-results/01_Jan_2018_12_17_PM/img/FlipKartWebOrderVerificationDataDriven_18pbmehr214ey20440.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user select sortby Price -- High to Low</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user select filterby Sony brand</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see only product results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: not &lt;31&gt;
+     Actual: was &lt;2&gt; <a href="test-results/01_Jan_2018_12_17_PM/img/FlipKartWebOrderVerificationDataDriven_2c6khmd6blcd20441.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects 1 product from product list</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/01_Jan_2018_12_17_PM/img/FlipKartWebOrderVerificationDataDriven_112jd617jbkh420442.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product details matching correctly</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Sony 59.9cm (24 inch) WXGA LED TV"
+     Actual: was "Sony 59.9cm (24 inch) WXGA LED TV  (BRAVIA KLV-24P413D)" <a href="test-results/01_Jan_2018_12_17_PM/img/FlipKartWebOrderVerificationDataDriven_1gxqgokq6fsle20443.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹13,999"
+     Actual: was "₹13,999" <a href="test-results/01_Jan_2018_12_17_PM/img/FlipKartWebOrderVerificationDataDriven_17550i9hdrb7e20444.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects view details</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/01_Jan_2018_12_17_PM/img/FlipKartWebOrderVerificationDataDriven_1be0ykprdx6vi20445.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see flipkart assured</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/01_Jan_2018_12_17_PM/img/FlipKartWebOrderVerificationDataDriven_pdnw3ess467p20446.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects add to cart</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then product has been added to the cart</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;2&gt; was greater than &lt;0&gt; <a href="test-results/01_Jan_2018_12_17_PM/img/FlipKartWebOrderVerificationDataDriven_1dhcy8k4p2re620447.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Sony 59.9cm (24 inch) WXGA LED TV"
+     Actual: was "Sony 59.9cm (24 inch) WXGA LED TV" <a href="test-results/01_Jan_2018_12_17_PM/img/FlipKartWebOrderVerificationDataDriven_672s9mdkiz3o20448.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹13,999"
+     Actual: was "₹13,999" <a href="test-results/01_Jan_2018_12_17_PM/img/FlipKartWebOrderVerificationDataDriven_1e8r6hthm6vzh20449.png" target="_blank">[View Screenshot]</a> </div></div></div></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.qmetry.qaf.automation.step.client.DataDrivenScenario#FlipKartWebOrderVerificationDataDriven</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{mainCategory=Appliances, subCategory=Semi Automatic Top Load, sortby=Price -- Low to High, filterBy=Godrej, productNumber=2, assured=flipkart assured}</td></tr><tr><th>Messages</th></tr><tr><td><div class="messages"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on flipkart homepage</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
+     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="test-results/01_Jan_2018_12_17_PM/img/FlipKartWebOrderVerificationDataDriven_1m2ybwsspe6220450.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects product Semi Automatic Top Load from Appliances category</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;24&gt; was greater than &lt;0&gt; <a href="test-results/01_Jan_2018_12_17_PM/img/FlipKartWebOrderVerificationDataDriven_1tk1pwfsvlss920451.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user select sortby Price -- Low to High</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user select filterby Godrej brand</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see only product results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: not &lt;111&gt;
+     Actual: was &lt;18&gt; <a href="test-results/01_Jan_2018_12_17_PM/img/FlipKartWebOrderVerificationDataDriven_133riefwmwjay20452.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects 2 product from product list</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/01_Jan_2018_12_17_PM/img/FlipKartWebOrderVerificationDataDriven_1ivurq2cciw3g20453.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product details matching correctly</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Godrej 6.2 kg Semi Automatic Top Load Washing Machine Red"
+     Actual: was "Godrej 6.2 kg Semi Automatic Top Load Washing Machine Red  (GWS 6204 PPD)" <a href="test-results/01_Jan_2018_12_17_PM/img/FlipKartWebOrderVerificationDataDriven_h1w9i8228jfd20454.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹10,250"
+     Actual: was "₹10,250" <a href="test-results/01_Jan_2018_12_17_PM/img/FlipKartWebOrderVerificationDataDriven_1ovqiriaqjh5b20455.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects view details</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/01_Jan_2018_12_17_PM/img/FlipKartWebOrderVerificationDataDriven_1kw85zqxpay6z20456.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see flipkart assured</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/01_Jan_2018_12_17_PM/img/FlipKartWebOrderVerificationDataDriven_1ijnwiwflu8xv20457.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects add to cart</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then product has been added to the cart</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;3&gt; was greater than &lt;0&gt; <a href="test-results/01_Jan_2018_12_17_PM/img/FlipKartWebOrderVerificationDataDriven_bxopkjvx4xnn20458.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Godrej 6.2 kg Semi Automatic Top Load Washing Machine Red"
+     Actual: was "Godrej 6.2 kg Semi Automatic Top Load Washing Machine Red" <a href="test-results/01_Jan_2018_12_17_PM/img/FlipKartWebOrderVerificationDataDriven_jor8wu2jx05620459.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹10,250"
+     Actual: was "₹10,250" <a href="test-results/01_Jan_2018_12_17_PM/img/FlipKartWebOrderVerificationDataDriven_1kdu5ivntvut020460.png" target="_blank">[View Screenshot]</a> </div></div></div></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">com.qmetry.qaf.automation.step.client.Scenario#FlipkartWebOrderVerification</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user is on flipkart homepage</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More"
+     Actual: was "Online Shopping Site for Mobiles, Fashion, Books, Electronics, Home Appliances and More" <a href="test-results/01_Jan_2018_12_17_PM/img/FlipkartWebOrderVerification_1er1ffwz5ysbf20428.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects product 'Smart & Ultra HD' from 'Appliances' category</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;24&gt; was greater than &lt;0&gt; <a href="test-results/01_Jan_2018_12_17_PM/img/FlipkartWebOrderVerification_nmjjr2h9vvgb20429.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user select sortby 'Price -- High to Low'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user select filterby 'Vu' brand</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see only product results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: not &lt;106&gt;
+     Actual: was &lt;9&gt; <a href="test-results/01_Jan_2018_12_17_PM/img/FlipkartWebOrderVerification_nml08evxcnyb20430.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects '0' product from product list</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/01_Jan_2018_12_17_PM/img/FlipkartWebOrderVerification_1tu9kkw55ikp920431.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see product details matching correctly</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Vu 190cm (75 inch) Ultra HD (4K) LED Smart TV"
+     Actual: was "Vu 190cm (75 inch) Ultra HD (4K) LED Smart TV  (H75K700)" <a href="test-results/01_Jan_2018_12_17_PM/img/FlipkartWebOrderVerification_arasdq2fn51620432.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹2,09,999"
+     Actual: was "₹2,09,999" <a href="test-results/01_Jan_2018_12_17_PM/img/FlipkartWebOrderVerification_1sgct5x29gb9s20433.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects view details</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/01_Jan_2018_12_17_PM/img/FlipkartWebOrderVerification_17800s55x9l9p20434.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user should see 'flipkart assured'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt; <a href="test-results/01_Jan_2018_12_17_PM/img/FlipkartWebOrderVerification_18fjgnbmipiwb20435.png" target="_blank">[View Screenshot]</a> </div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user selects add to cart</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then product has been added to the cart</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;1&gt; was greater than &lt;0&gt; <a href="test-results/01_Jan_2018_12_17_PM/img/FlipkartWebOrderVerification_1d8wf6oq1lom220436.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Vu 190cm (75 inch) Ultra HD (4K) LED Smart TV"
+     Actual: was "Vu 190cm (75 inch) Ultra HD (4K) LED Smart TV" <a href="test-results/01_Jan_2018_12_17_PM/img/FlipkartWebOrderVerification_5q7qhtl0w57020437.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "₹2,09,999"
+     Actual: was "₹2,09,999" <a href="test-results/01_Jan_2018_12_17_PM/img/FlipkartWebOrderVerification_yv2mog8ujxqi20438.png" target="_blank">[View Screenshot]</a> </div></div></div></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

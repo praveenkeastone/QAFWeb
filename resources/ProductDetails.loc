@@ -1,0 +1,3 @@
+product.detailpage.productname = {\"locator\":\"css=h1[class='_3eAQiD']\",\"desc\":\"productname on productdetail page\"}
+product.detailpage.addtocart = {\"locator\":[\"css=button[class='_2AkmmA _2Npkh4 _2MWPVK RpigiU']\",\"css=button[class='_2AkmmA _2Npkh4 _2MWPVK']\"],\"desc\":\"addtocart on productdetail page\"}
+product.detailpage.productprice = {\"locator\":\"css=div[class='_1vC4OE _37U4_g']\",\"desc\":\"productprice on productdetail page\"}

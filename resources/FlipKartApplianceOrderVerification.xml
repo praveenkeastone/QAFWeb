@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product>
+<category>
+<mainCategory>Appliances</mainCategory>
+<subCategory>24 and below</subCategory>
+<sortby>Price -- High to Low</sortby>
+<filterBy>Sony</filterBy>
+<productNumber>1</productNumber>
+<assured>flipkart assured</assured>
+</category>
+
+<category>
+<mainCategory>Appliances</mainCategory>
+<subCategory>Single Door</subCategory>
+<sortby>Newest First</sortby>
+<filterBy>LG</filterBy>
+<productNumber>1</productNumber>
+<assured>flipkart assured</assured>
+</category>
+<category>
+<mainCategory>Appliances</mainCategory>
+<subCategory>Semi Automatic Top Load</subCategory>
+<sortby>Price -- Low to High</sortby>
+<filterBy>Godrej</filterBy>
+<productNumber>2</productNumber>
+<assured>flipkart assured</assured>
+</category>
+
+
+
+</product>

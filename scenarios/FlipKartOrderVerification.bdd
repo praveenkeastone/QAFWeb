@@ -1,0 +1,39 @@
+
+SCENARIO: FlipkartWebOrderVerification
+META-DATA: {"description":"end to end","groups":["P1","P2","SMOKE"]}
+	
+		
+	Given user is on flipkart homepage
+	When user selects product 'Smart & Ultra HD' from 'Appliances' category
+	Then user should see product results
+	When user select sortby 'Price -- High to Low'
+	And user select filterby 'Vu' brand
+	Then user should see only product results
+	When user selects '0' product from product list
+	Then user should see product details matching correctly
+	When user selects view details
+	Then user should see 'flipkart assured'
+	When user selects add to cart
+	Then product has been added to the cart
+	
+END
+
+
+SCENARIO: FlipKartWebOrderVerificationDataDriven
+META-DATA: {"description":"end to end data driven","groups":["P1","P2","SMOKE"],"key":"category"}
+	
+	Given user is on flipkart homepage
+	When user selects product ${subCategory} from ${mainCategory} category
+	Then user should see product results
+	When user select sortby ${sortby}
+	And user select filterby ${filterBy} brand
+	Then user should see only product results
+	When user selects ${productNumber} product from product list
+	Then user should see product details matching correctly
+	When user selects view details
+	Then user should see ${assured}
+	When user selects add to cart
+	Then product has been added to the cart
+	
+END
+

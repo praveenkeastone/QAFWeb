@@ -1,0 +1,3 @@
+result.product.division = {\"locator\":[\"css=a[class='_1UoZlX']\",\"css=div[class='_3ycxrs']\"],\"desc\":\"product division on resultpage\"}
+result.product.productname = {\"locator\":[\"css=div[class='_3wU53n']\",\"css=a[class='_325-ji _3ROAwx']\"],\"desc\":\"productname on resultpage\"}
+result.product.productprice = {\"locator\":[\"css=div[class='_1vC4OE _2rQ-NK']\",\"css=div[class='I8hxu4']\"],\"desc\":\"productprice on resultpage\"}

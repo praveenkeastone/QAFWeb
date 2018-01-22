@@ -1,0 +1,3 @@
+login.popup.closeButton = {\"locator\":[\"css=button[class='_2AkmmA _29YdH8']\",\"css=a[class='_2etDcX _2487fi']\"],\"desc\":\"closeButton on login popup\"}
+homepage.mainmenu = {\"locator\":\"css=a[title='%s']\",\"desc\":\"mainmenu on homepage\"}
+homepage.maincategory.submenu = {\"locator\":\"css=a[title='%s']\",\"desc\":\"submenu by category on homepage\"}

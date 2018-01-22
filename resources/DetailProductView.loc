@@ -1,0 +1,6 @@
+detailview.product.productname = {\"locator\":\"css=h1[class='_3eAQiD']\",\"desc\":\"productname on productdetailview\"}
+detailview.product.productprice = {\"locator\":\"css=div[class='_1vC4OE _37U4_g']\",\"desc\":\"productprice on productdetailview\"}
+detailview.product.viewdetails = {\"locator\":\"css=span[class='_3yGtFA']\",\"desc\":\"viewdetails on productdetailview\"}
+detailview.product.addtocart = {\"locator\":[\"css=button[class='_2AkmmA _2Npkh4 _2MWPVK']\",\"css=button[class='_2AkmmA _2Npkh4 _2MWPVK RpigiU']\"],\"desc\":\"addtocart on productdetailview\"}
+detailview.product.flipkartassured = {\"locator\":\"xpath=//span[@text='%s']\",\"desc\":\"filpkartassured in viewdetails on productdetailview\"}
+detailview.popup.closebutton = {\"locator\":\"css=button[class='_2AkmmA _2Rr3iH']\",\"desc\":\"closeButton on viewdetails on productdetailview\"}
