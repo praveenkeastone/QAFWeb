@@ -67,9 +67,7 @@ public class FlipkartHomePageTestPage extends WebDriverBaseTestPage<WebDriverTes
 		QAFExtendedWebElement element2= new QAFExtendedWebElement(String.format(ConfigurationManager.getBundle().getString("homepage.maincategory.submenu"), subMenuByCategory));
 		element2.waitForVisible();	
 		element2.click();
-	System.out.println();
-	System.out.println();
-	System.out.println();
+	
 	}
 
 }
