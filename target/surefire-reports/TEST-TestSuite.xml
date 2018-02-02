@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="TestSuite" time="78.735" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="TestSuite" time="79.682" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\praveenkumar.dm\QASWorkspace1\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8489557530934505196.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\praveenkumar.dm\QASWorkspace1\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8994100938766735456.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\nodejs\;C:\Users\praveenkumar.dm\AppData\Local\Android\Sdk;C:\Users\praveenkumar.dm\AppData\Local\Android\Sdk\platform-tools;C:\Users\praveenkumar.dm\AppData\Local\Android\Sdk\tools;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\praveenkumar.dm\AppData\Roaming\npm;C:\Users\praveenkumar.dm\QAS_Win64;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,8 +61,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.qmetry.qaf.automation.step.client.Scenario" name="FlipkartWebOrderVerification" time="26.978"/>
-  <testcase classname="com.qmetry.qaf.automation.step.client.DataDrivenScenario" name="FlipKartWebOrderVerificationDataDriven" time="16.978"/>
-  <testcase classname="com.qmetry.qaf.automation.step.client.DataDrivenScenario" name="FlipKartWebOrderVerificationDataDriven" time="16.764"/>
-  <testcase classname="com.qmetry.qaf.automation.step.client.DataDrivenScenario" name="FlipKartWebOrderVerificationDataDriven" time="16.942"/>
+  <testcase classname="com.qmetry.qaf.automation.step.client.Scenario" name="FlipkartWebOrderVerification" time="26.244"/>
+  <testcase classname="com.qmetry.qaf.automation.step.client.DataDrivenScenario" name="FlipKartWebOrderVerificationDataDriven" time="17.501"/>
+  <testcase classname="com.qmetry.qaf.automation.step.client.DataDrivenScenario" name="FlipKartWebOrderVerificationDataDriven" time="17.352"/>
+  <testcase classname="com.qmetry.qaf.automation.step.client.DataDrivenScenario" name="FlipKartWebOrderVerificationDataDriven" time="17.586"/>
 </testsuite>

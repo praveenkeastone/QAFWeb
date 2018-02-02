@@ -4,7 +4,7 @@ META-DATA: {"description":"end to end","groups":["P1","P2","SMOKE"]}
 	
 		
 	Given user is on flipkart homepage
-	When user selects product 'Smart & Ultra HD' from 'Appliances' category
+	When user selects product 'Smart & Ultra HD' from 'TVs & Appliances' category
 	Then user should see product results
 	When user select sortby 'Price -- High to Low'
 	And user select filterby 'Vu' brand
@@ -23,7 +23,7 @@ SCENARIO: FlipKartWebOrderVerificationDataDriven
 META-DATA: {"description":"end to end data driven","groups":["P1","P2","SMOKE"],"key":"category"}
 	
 	Given user is on flipkart homepage
-	When user selects product ${subCategory} from ${mainCategory} category
+	When user selects product ${subCategory} from 'TVs & Appliances' category
 	Then user should see product results
 	When user select sortby ${sortby}
 	And user select filterby ${filterBy} brand
